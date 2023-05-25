@@ -1,0 +1,73 @@
+body{
+    background-image: url('./img/cesta\ de\ volei.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.container{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 100%;
+}
+.flex{
+    background-color: whitesmoke;
+    margin-right: 1000px;
+    padding:10px;
+    width: 200px;
+    margin: 5px 500px;
+    border-radius: 20px;
+    padding-right: 15%;
+    translate: (-50%, 50%);  
+}
+h1{  
+    width: max-content;  
+}
+.grid-card{
+    background-color: #f8ef49;
+    width: 1000px;
+    border-radius: 20px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.grid-item-1{
+    grid-column: 1 / span 2;
+}
+.grid-item-4{
+    grid-column: 1 / span 2;
+}
+        /* liga brasil */
+.card{
+    margin-left: 80px;
+    background-color: #2572bd;
+    color: cornsilk;
+    padding: 10px;
+    border-radius: 20px;
+    border: 5px dashed #302ee3;   
+}
+.VB{
+    width: 500px;
+    border-radius: 50px;
+    height: 330px;
+    margin-left: 15px;
+}
+        /* liga italia */
+.VI{
+    width: 500px;
+    border-radius: 50px;
+    height: 330px;
+    margin-left: 15px;
+}
+.carde{
+    padding: 10px;
+    padding-bottom: 10px;
+    margin-left: 80px;
+    background-color: #2572bd;
+    color: cornsilk;
+    border-radius: 20px;
+    border: 5px dashed #302ee3;
+}
