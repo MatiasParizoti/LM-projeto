@@ -6,10 +6,15 @@ body{
 }
 header{
     width: 100%;
-    background-color: #FFE4E1;
+    background-color: #FFFF00;
     justify-content: space-around;
     align-items: center;
     padding: 20px 0;
+    border-radius: 20px;
+    
+}
+.titulo{
+    font-size: 50px;
 }
 #logo-texto{
     font-size: 15px;
@@ -27,11 +32,9 @@ header{
     border-radius: 20px;
     padding-top: 10%;
 }
-
 a{
     text-decoration: none;
 }
-
 .container{
     display: flex;
     flex-direction: row;
@@ -39,7 +42,6 @@ a{
     width: 100%;
     
 }
-
 .flex{
     display: flex;
     flex-direction: row;

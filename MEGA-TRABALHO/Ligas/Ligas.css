@@ -25,7 +25,7 @@ h1{
 }
 .grid-card{
     background-color: #f8ef49;
-    width: 1000px;
+    width: 1150px;
     border-radius: 20px;
     margin: 5px;
     display: grid;
@@ -42,7 +42,7 @@ h1{
 }
         /* liga brasil */
 .card{
-    margin-left: 80px;
+    margin-left: 25px;
     background-color: #2572bd;
     color: cornsilk;
     padding: 10px;
@@ -65,7 +65,7 @@ h1{
 .carde{
     padding: 10px;
     padding-bottom: 10px;
-    margin-left: 80px;
+    margin-left: 50px;
     background-color: #2572bd;
     color: cornsilk;
     border-radius: 20px;
