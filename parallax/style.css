@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #242424;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+h1,h2{
+    font-weight: 900;
+    color: #242424;
+}
+
+/*div principal*/
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+.main{
+    display: block;
+    background-color: #fff;
+}
+
+/*div com a parte do  texto*/
+.container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/*todos os module relacionado ao conteiner*/
+.module.content{
+    padding: 40px 0;
+    background: #9b9991;
+}
+.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.module:last-child{
+    margin-bottom: 0px;
+}
+.module p{
+    margin-bottom: 40px;
+}
+
+/*css da primeira imagem */
+.module.parallax{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 100vh !important ;
+   width: 100%;
+   position: relative;
+   overflow: hidden;
+
+   /* baixo e cima - esquerda e direita*/
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   /* isso que deixa o efeito de sumir*/
+   background-attachment: fixed; 
+   
+   /* esses webkit - moz - o - são para ele se adaptar aos tipos de navegador, tipo "o" seria OperaGx*/
+   -webkit-backgroud-size: cover;
+   -moz-backgroud-size:cover;
+   -o-backgroud-size:cover;
+   
+}
+.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+
+    /*tudo dentro da linear tem haver com opacidade, sendo primeiro a cor e depois a porcentagem*/
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+}
+
+/* parte do H1 - imagem 1*/
+.module.parallax-1 h1{
+    color: #fff;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+
+    /* uppercase deixa todas as letras em caixa alta*/
+    text-transform: uppercase;
+}
+/* parte do H1  - imagem 2*/
+.module.parallax-2 h1{
+    color: #fff;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+}
+/* parte do H1 - imagem 3*/
+.module.parallax-3 h1{
+    color: #000;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+/*imagens*/
+.module.parallax-1{
+    background-image: url(./img/terra-2.jpg);
+}
+.module.parallax-2{
+    background-image: url(./img/ceu-lua.jpg);
+}
+.module.parallax-3{
+    background-image: url(./img/ursos.jpg);
+}
