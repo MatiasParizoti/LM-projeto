@@ -10,6 +10,9 @@ body{
 :root{
     --tp-color: rgba(60, 97, 94, 0.8);
 }
+html{
+    scroll-behavior: smooth;
+}
 h1,h2{
     font-weight: 900;
     color: #242424;
@@ -184,7 +187,9 @@ header{
     justify-content: space-around;
     min-width:300px;
     padding: 20px;
-    margin-left: 62%;
+    margin-left: 75%;
+    /* margin-left: 62%; */
+
     
 }
 
@@ -202,7 +207,8 @@ header{
     text-decoration: none;
     padding: 5px;
     padding-bottom: 0px;
-    margin-left: 79%;
+    /* margin-left: 82%; */
+    margin-left: 92.2%;
     margin-top: 64%;
     color: #242424;
     border-bottom: 2px solid black;
@@ -219,7 +225,8 @@ header{
     margin-bottom: 40px;
     font-size: 30px;
     z-index: 22;
-    margin-left: 58%;
+    margin-left: 72%;
+    /* margin-left: 58%; */
     margin-top: 5%;
    border: 3px solid black;
    border-radius: 1rem;
@@ -310,6 +317,9 @@ header{
     border-radius: 5px;
     border: 0.5px solid black;
 }
+.Link4{
+    list-style: none;
+}
 
 /*todos os module relacionado ao conteiner*/
 .module.content4{
@@ -323,9 +333,6 @@ header{
     margin-top: 5%;
     font-size: 30px;
 }
-
-
-
 
 
 
@@ -388,10 +395,12 @@ header{
     width: 250px;
 }
 .icones{
+    font-size: 50px;
     margin-left: 65%;
     margin-top: 24%;
 }
 .redesI{
     margin-top: 5%;
-margin-left: 90px;
+    margin-left: 45px;
+    font-size: 35px;
 }
